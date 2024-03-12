@@ -1,0 +1,39 @@
+.physical-paper-article .list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    border-top: 2px solid black;
+}
+
+.physical-paper-article .list time {
+    border-bottom: 2px solid black;
+    padding: 1em;
+}
+
+.physical-paper-article .list a {
+    border-bottom: 2px solid black;
+    padding: 1em;
+}
+
+.physical-paper-article .list label {
+    border-bottom: 2px solid black;
+    padding: 1em;
+}
+
+.physical-paper-article .table-header {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+}
+
+.physical-paper-article .table-header label {
+    padding: 1em;
+}
+
+//* .physical-paper-article .list a {
+    border: 1px solid #aaa;
+    border-radius: 0.2em;
+    background-color: #f9f9f9;
+}
+
+    */

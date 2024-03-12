@@ -1,0 +1,116 @@
+@media only screen and (min-width: 1001px) {
+	header {
+		display: grid;
+		grid-template-areas:
+		"logo title"
+		"links links";
+		grid-template-columns: 80px auto;
+		align-items: center;
+		grid-row-gap: 1em;
+		grid-column-gap: 1em;
+		margin-left: 20px;
+		margin-top: 20px;
+	}
+
+	.header-logo {
+		grid-area: logo;
+		width: 80px;
+	}
+
+	.header-title {
+		color: #ffff00;
+		grid-area: title;
+		font-family: "Montserrat";
+		font-weight: 600;
+		font-size: 300%;
+		text-decoration: none;
+	}
+
+	.header-links {
+		grid-area: links;
+		grid-column-span: 2;
+	}
+
+	.header-links a {
+		background-color: yellow;
+		color: black;
+		border: none;
+		padding: 10px;
+		border-radius: 10px;
+		vertical-align: middle;
+		line-height: 2.9em;
+		text-decoration: none;
+	}
+
+	.header-links a:hover {
+		background-color: #762626;
+		color: white;
+		border: none;
+		padding: 10px;
+		border-radius: 10px;
+		fill: black;
+		line-height: 2.9em;
+		transition: 0.25s ease;
+	}
+}
+
+@media only screen and (max-width: 1000px) {
+
+	header {
+		text-align: center;
+		display: grid;
+		grid-template-areas:
+		"logo"
+		"title"
+		"links";
+		grid-template-columns: auto;
+	}
+	
+	.header-logo {
+		grid-area: logo;
+		width: 120px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.header-title {
+		grid-area: title;
+		color: #ffff00;
+		grid-area: title;
+		font-family: "Montserrat";
+		font-weight: 600;
+		font-size: 300%;
+		text-decoration: none;
+	}
+
+	.header-links {
+		grid-area: links;
+		grid-column-span: 2;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.header-links a {
+		background-color: yellow;
+		color: black;
+		border: none;
+		padding: 10px;
+		border-radius: 10px;
+		vertical-align: middle;
+		line-height: 2.9em;
+		text-decoration: none;
+	}
+
+	.header-links a:hover {
+		background-color: #762626;
+		color: white;
+		border: none;
+		padding: 10px;
+		border-radius: 10px;
+		fill: black;
+		line-height: 2.9em;
+		transition: 0.25s ease;
+	}
+}

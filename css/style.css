@@ -1,0 +1,395 @@
+@font-face {
+    src: url(files/cc-by-nd.ttf);
+    font-family: cc;
+}
+
+body {
+    background-color: #762626;
+    color: black;
+    font-family: 'Atkinson Hyperlegible', sans-serif;
+    font-weight: Extra-light 200;
+}
+
+article {
+    background-color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.normtable{
+  width:100%;
+}
+
+.mid-table {
+    width: 100%;
+    text-align:center
+}
+
+header {
+    background-color: #762626;
+}
+
+footer {
+    border-top: 3px white solid;
+    background-color: #762626;
+}
+
+.main-header{
+    font-size:300%;
+}
+
+.mobile-header{
+    width:100%;
+    height: 1000px;
+}
+
+.button {
+    background-color:yellow;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    vertical-align: middle;
+    line-height: 2.9em;
+    text-decoration:none;
+}
+
+.button:hover {
+    background-color: #762626;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    fill: black;
+    line-height: 2.9em;
+    transition: 0.25s ease;
+}
+
+.button2 {
+    background-color: yellow;
+    color: black;
+    border: green;
+    border-width: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    vertical-align: middle;
+    width: 30px;
+}
+.button2:hover {
+    background-color: #762626;
+    color: white;
+    border: 10px;
+    border-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    transition: 0.25s ease;
+}
+
+.button3 {
+    background-color: yellow;
+    color: black;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    vertical-align: middle;
+    line-height: 2.9em;
+    text-decoration: none;
+}
+
+.button3:hover {
+    background-color: #762626;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    fill: black;
+    line-height: 2.9em;
+    transition: 0.25s ease;
+}   
+
+.right{
+    text-align:right;
+}
+
+.left{
+    text-align:left;
+}
+
+.middle{
+    text-align:center;
+}
+
+.norm-img{
+    border-radius:10px;
+    width:90%;
+}
+
+.twoFive-img {
+    border-radius: 10px;   
+}
+
+.world-img {
+    border-radius: 10px;
+    width: 90%;
+}
+
+.four-zero-four-title {
+    text-align: center;
+    font-size: 100px;
+}
+
+.test {
+    border: 0.1em solid #AAA;
+    border-radius: 0.2em;   
+    padding: 0.1em 0.3em;
+}
+
+.small-middle{
+    width:33%;
+    text-align:center;
+}
+
+.margin{
+    margin: 20px;
+}
+
+.large{
+    font-size: 30;
+}
+
+.video-curve{
+    border-radius: 10px;
+    width: 90%;
+}
+
+.bottom-line {
+    border-bottom: 3px white solid;
+}
+
+.license {
+    color: white;
+    text-decoration-color: #171717;
+    font-family: cc, 'Poppins';
+    
+}
+
+.license:hover {
+    color: white;
+    text-decoration-color: white;
+    font-family: cc, 'Poppins';
+}
+
+.foot-frame{
+    width:100%;
+    border:none;
+    height:33%
+}
+
+.ver-mid{
+    vertical-align:central;
+}
+
+.h1-label{
+    font-size: 30px;
+    color: white;
+    text-decoration-color: #171717;
+}
+
+.h1-label:hover {
+    font-size: 30px;
+    color: white;
+    text-decoration-color: white;
+}
+
+.yt-16-9 {
+    border: none;
+    border-radius: 10px;
+    aspect-ratio: 16/9;
+}
+
+.article-title {
+    font-size: 40px;
+    text-align: center;
+    background-color: white;
+    padding-top: 100px;
+}
+
+.gallery img {
+    height: 25%;
+    width: auto;
+    margin: 2em;
+    align: left;
+}
+
+.gallery-float img {
+    height: 25%;
+    width: auto;
+    margin: 2em;
+    align: left;
+    float: left;
+}
+
+.button-clear a .button2 {
+    background-color: #762626;
+    color: black;
+    border: green;
+    border-width: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    vertical-align: middle;
+    width: 30px;
+}
+
+.invis-link {
+    color: white;
+    text-decoration: none;
+}
+
+.invis-link:hover {
+    color: white;
+    transition: 0.25s ease;
+    text-decoration: underline;
+}
+
+.infobox p {
+    margin-right: 5%;
+}
+
+/* desktop */
+@media only screen and (min-width: 1000px){
+    .desktop{
+        display: block;
+    }
+    .mobile{
+        display: none;
+    }
+
+    .head-frame {
+        width: 100%;
+        border: none;
+        /*height: 200px;*/
+        max-height:100%;
+        min-height:200px;
+        height:auto;
+    }
+
+    .split1 {
+        width: 50%;
+        vertical-align: top;
+    }
+
+    .split2 {
+        width: 50%;
+        vertical-align: top;
+    }
+
+    article .content {
+        width: 90%;
+    }
+
+    article .infobox {
+        width: 42.5%;
+        float: right;
+        margin-left: 5%;
+    }
+
+    article .content {
+        margin-left: 5%;
+    }
+
+    .custom-spacer-one {
+        height: 100%;
+    }
+
+}
+
+/* Mobile */
+@media only screen and (max-width: 1000px) {
+    .mobile{
+        display: block;
+    }
+    .desktop{
+        display: none;
+    }
+
+    .head-frame {
+        width: 100%;
+        border: none;
+        /*height: 420px;*/
+        max-height: 1000px;
+        min-height: 420px;
+        height: fit-content;   
+    }
+
+    .split1 {
+        width: 100%;
+        vertical-align: top;
+    }
+
+    .split2 {
+        width: 0%;
+        display: none;
+        vertical-align: top;
+    }
+
+    article .content {
+        margin: 5%
+    }
+
+}
+
+/* set the max width to 868 px when using iframes */
+/* set it to 1000px when not using iframes*/
+@media only screen and (min-width: 868px) {
+    .desktop-two {
+        display: block;
+    }
+
+    .mobile-two {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1010px) {
+
+    .head-frame-two {
+        width: 100%;
+        border: none;
+        height: 200px; /* yes, always 200px */
+    }
+}
+
+@media only screen and (max-width: 1010px) {
+
+    .head-frame-two {
+        width: 100%;
+        border: none;
+        height: 311px; /* yes, always 311px */
+    }
+}
+
+/* set the max width to 868 px when using jframes */
+/* set it to 1000px when not using iframes*/
+@media only screen and (max-width: 868px) {
+    .mobile-two {
+        display: block;
+    }
+
+    .desktop-two {
+        display: none;
+    }
+
+    .head-frame-two {
+        width: 100%;
+        border: none;
+        height: 311px; /* normally 420px, if ther's a lot of tabs to manage */
+    }
+}
+
+.four-zero-four-2{
+    font-size:50;
+}
+
+.top{
+    vertical-align: top;
+}
